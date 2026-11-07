@@ -11,6 +11,7 @@ Tomada el 7 de noviembre de 2026 en un entorno remoto de prueba.
 - AVD `taskflow_api35`, 1080×2400, dispositivo `emulator-5554`
 - Paquete `com.example.taskflow`, actividad `.MainActivity`
 - Captura con `adb exec-out screencap -p` sobre el APK de depuración de este código
+- Video H.264 de 10,9 s (1080×2400, 24 fps) de esa misma pantalla en el emulador, no en un teléfono
 
 ## Código de origen
 
@@ -23,10 +24,10 @@ La imagen corresponde al `main` ya publicado, antes de este commit de documentac
 | SHA | `5578e526b47aa8fad030ce4c4f51dfc64e9d7b33` |
 | Commit | `feat: crear pantalla de bienvenida` |
 
-## Archivo
+## Archivos
 
 `docs/evidencias/sesion-01-bienvenida.png` (1080×2400).
 
-Se ve la pantalla fija: **TaskFlow**, «¡Hola, Mildreth Guanoluisa!», «Cada tarea terminada te acerca a tu meta.», «Bienvenido/a a Desarrollo de aplicaciones móviles.» y «Tareas pendientes: 3».
+`docs/evidencias/sesion-01-ejecucion.mp4` (10,9 s, H.264, 1080×2400). Es el archivo de video; la ficha solo enlaza esa ruta.
 
-No hay video en la sesión 1.
+En ambos se ve la pantalla fija: **TaskFlow**, «¡Hola, Mildreth Guanoluisa!», «Cada tarea terminada te acerca a tu meta.», «Bienvenido/a a Desarrollo de aplicaciones móviles.» y «Tareas pendientes: 3». El contador no cambia durante el video.
