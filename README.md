@@ -47,7 +47,8 @@ flutter test
 ├── README.md                        # esta ficha
 ├── EVIDENCIAS.md                    # entorno real de la captura
 ├── docs/evidencias/
-│   └── sesion-01-bienvenida.png
+│   ├── sesion-01-bienvenida.png
+│   └── sesion-01-ejecucion.mp4
 ├── lib/main.dart                    # TaskFlowApp y WelcomeScreen
 ├── test/widget_test.dart
 ├── pubspec.yaml
@@ -63,4 +64,6 @@ Captura del emulador **Android 15 (API 35)**, AVD `taskflow_api35`, con **Flutte
 
 ![Bienvenida de TaskFlow: Mildreth Guanoluisa y 3 tareas pendientes](docs/evidencias/sesion-01-bienvenida.png)
 
-Esta sesión no tiene video.
+El video dura 10,9 s (H.264, 1080×2400) y muestra la misma bienvenida estática: **Mildreth Guanoluisa** y **Tareas pendientes: 3**. El enlace es la ruta del archivo.
+
+[Video de la ejecución en el emulador](docs/evidencias/sesion-01-ejecucion.mp4)
